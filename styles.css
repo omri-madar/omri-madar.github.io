@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#calculator {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.time-entry {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.hour-input,
+.minute-input {
+    width: 60px; /* Adjust the width as needed */
+    padding: 5px;
+    margin-right: 20px;
+}
+
+span {
+    margin-right: 5px;
+}
+
+.add-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#calculate-button {
+    background-color: #28A745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#total-hours {
+    font-weight: bold;
+}

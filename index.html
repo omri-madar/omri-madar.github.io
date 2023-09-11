@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanya's Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tanya's Calculator</h1>
+    <div id="calculator">
+        <div class="time-entry">
+            <input type="number" class="hour-input" placeholder="Hours">
+            <input type="number" class="minute-input" placeholder="Minutes">
+            <button class="add-button">+</button>
+        </div>
+        <button id="calculate-button">Calculate Total</button>
+        <p id="total-hours">Total hours: <span id="result">0h 0m</span></p>
+        <p id="hours-left"></p> <!-- Placeholder for hours left message -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
